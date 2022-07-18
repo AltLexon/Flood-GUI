@@ -146,7 +146,7 @@ other:NewButton("Copy Tomato-Hub Invite", "Copies Tomato-Hub invite to clipboard
 	setclipboard("https://discord.gg/8N2M9fHJqa")
 end)
 other:NewButton("Copy Lexon-Hub Invite", "Copies Lexon-Hub invite to clipboard!", function()
-	setclipboard("https://discord.gg/ng4CN7Vq")
+	setclipboard("https://discord.gg/Hfw8RXYJ")
 end)
 getgenv().ui = true
 loc:NewSlider("Walkspeed", "Change your walkspeed!", 100, 20, function(t)
