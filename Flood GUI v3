@@ -1,4 +1,9 @@
 repeat task.wait() until game:IsLoaded() 
+
+if game.Players.LocalPlayer.Character.PlayerGui.GameGui == nil then
+  error("You need play fe2 for execute!")
+end
+
 getgenv''.maps = {
 		"Lost Woods",
 		"Axiom",
